@@ -1,9 +1,6 @@
 # Ignore Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
-# Ignore Jupyter Notebook files (if you want to ignore all notebooks, *optional*)
-# *.ipynb
-
 # Ignore sensitive tokens and credential files
 token.txt
 
@@ -25,7 +22,7 @@ env/
 # VSCode settings
 .vscode/
 
-# Ignore logs and data (optional, add your data files as needed)
+# Ignore logs and data, add your data files as needed)
 *.log
 
 # Ignore test outputs
