@@ -1,2 +1,41 @@
-.ipynb
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Jupyter Notebook files (if you want to ignore all notebooks, *optional*)
+# *.ipynb
+
+# Ignore sensitive tokens and credential files
 token.txt
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment files
+.env
+.env.*
+.venv/
+venv/
+env/
+
+# macOS system file
+.DS_Store
+
+# VSCode settings
+.vscode/
+
+# Ignore logs and data (optional, add your data files as needed)
+*.log
+
+# Ignore test outputs
+htmlcov/
+.coverage
+.cache
+
+# Ignore Python egg/dist build files
+*.egg
+*.egg-info/
+dist/
+build/
+
